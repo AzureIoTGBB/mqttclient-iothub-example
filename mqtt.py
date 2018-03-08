@@ -3,8 +3,8 @@ import ssl
 
 path_to_root_cert = "cert.cer"
 device_id = "test"
-sas_token = "SharedAccessSignature sr=mqconnector.azure-devices.net%2Fdevices%2Ftest&sig=HM%2FVq2GpBN5j5xFCq60Gw8VrxQiSjtBFRwAD%2BuA1nBg%3D&se=1523137214"
-iot_hub_name = "mqconnector"
+sas_token = ""
+iot_hub_name = ""
 
 def on_connect(client, userdata, flags, rc):
   print ("Device connected with result code: " + str(rc))
