@@ -4,6 +4,12 @@ This is a simple example based on instuctions at https://docs.microsoft.com/en-u
 
 ### Using the example
 
+First you install the paho mqtt client using pip:
+
+    pip install paho-mqtt
+
+Then change the following variables:   
+
 * For the **ClientId** field, use the **deviceId**.
 
 * For the **Username** field, use `{iothubhostname}/{device_id}/api-version=2016-11-14`, where `{iothubhostname}` is the full CName of the IoT hub.
